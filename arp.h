@@ -69,4 +69,5 @@ static uint8_t* ng_get_dst_macaddr(uint32_t dip)
 	return NULL;
 }
 
+
 #endif

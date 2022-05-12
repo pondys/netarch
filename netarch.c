@@ -524,6 +524,8 @@ static int pkt_process(void *arg)
 
 #endif
 
+//static int udp_server_entry(__attribute__((unused))  void *arg) {
+
 int main(int argc, char *argv[])
 {
 	if (rte_eal_init(argc, argv) < 0)
